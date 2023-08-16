@@ -149,6 +149,7 @@ img {
     border-radius: 50%;
 }
 
+
 .name {
     display: flex;
     flex-direction: row;
@@ -190,7 +191,7 @@ nav h2 {
     padding: 10px;
     margin: 50px;
     background-color: #0077b6;
-    border-radius: 10px;
+    border-radius: 20px;
     width: 50%;
 }
 
@@ -198,6 +199,7 @@ nav h2 {
     font-family: 'Oswald', sans-serif;
     margin-bottom: 10px;
     font-size: 35px;
+    text-transform: capitalize;
 }
 
 .paragraph {
@@ -215,6 +217,13 @@ ul {
     background-color: #90e0ef;
     padding: 1em;
     margin-left: 22px;
+    border-radius: 10px;
+    transition: 200ms;
+}
+
+p {
+    background-color: #90e0ef;
+    padding: 1em;
     border-radius: 10px;
     transition: 200ms;
 }
@@ -249,6 +258,8 @@ ul:hover {
     margin-bottom: 30px;
     border-radius: 20px;
 }
+
+
 
 
 
